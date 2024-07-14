@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12&family=Oswald:wght@200..700&family=Rowdies:wght@300;400;700&display=swap");
+.head {
+  font-size: 40px;
+  font-family: "Jacquard 12", system-ui, system-ui;
+  text-align: center;
+}
+body {
+  background: rgb(154, 172, 186);
+  background: linear-gradient(
+    0deg,
+    rgb(159, 193, 220) 0%,
+    rgb(209, 222, 234) 86%
+  );
+  background-attachment: fixed;
+  padding: 30x;
+}
+
+#form {
+  width: 400px;
+  margin: 10vh auto 0 auto;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.title {
+  color: rgb(67, 53, 53);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+span {
+  color: rgb(61, 23, 23);
+}
+
+#form button {
+  background-color: rgb(33, 120, 91);
+  color: white;
+  border: 1px solid rgb(33, 120, 91);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+}
+
+#form button:hover {
+  background-color: rgb(224, 224, 224);
+  color: black;
+}
+
+.alter {
+  text-align: center;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-control input {
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid rgb(88, 147, 193);
+}
+.form-control input:focus {
+  outline: 0;
+}
+.error {
+  color: rgb(240, 28, 28);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.form-control.success input {
+  border-color: green;
+}
+
+.form-control.error input {
+  border-color: rgb(240, 28, 28);
+}

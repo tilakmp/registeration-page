@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <p class="head">Tikpick.com</p>
+    <div class="container">
+      <form action="" id="form">
+        <h1 class="title">R<span>e</span>gi<span>s</span>t<span>e</span>r</h1>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="username" />
+          <div class="error"></div>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="email" />
+          <div class="error"></div>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="password" />
+          <div class="error"></div>
+        </div>
+        <div class="form-control">
+          <label for="password"> Confirm Password</label>
+          <input
+            type="password"
+            id="cpassword"
+            placeholder="confirm password"
+          />
+          <div class="error"></div>
+        </div>
+        <button type="submit">submit</button>
+        <p class="alter">don't have a account <a href="#">login</a></p>
+      </form>
+    </div>
+  </body>
+</html>
